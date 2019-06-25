@@ -12,7 +12,7 @@ public class MainController {
     @GetMapping
     public String welcomePage(Model model) {
         model.addAttribute("title", "Welcome");
-        model.addAttribute("message", "You can sent email!");
+        model.addAttribute("message", "You can send email!");
         return "welcomePage";
     }
 

@@ -38,7 +38,7 @@ public class HtmlEmailExampleController {
 
         this.emailSender.send(message);
 
-        return "emailSent";
+        return "emailSend";
     }
 
 }
