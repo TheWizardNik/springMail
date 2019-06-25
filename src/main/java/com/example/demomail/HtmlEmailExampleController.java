@@ -26,8 +26,8 @@ public class HtmlEmailExampleController {
 
         MimeMessageHelper helper = new MimeMessageHelper(message, multipart, "utf-8");
 
-        String htmlMsg = "<h3>Im testing send a HTML email</h3>"
-                + "<img src='http://www.apache.org/images/asf_logo_wide.gif'>";
+        String htmlMsg = "<h3>This is cake for you</h3>"
+                + "<img src='https://i1.fnp.com//images/pr/l/black-forest-cake_1.jpg'>";
 
         message.setContent(htmlMsg, "text/html");
 
